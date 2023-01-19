@@ -9,16 +9,34 @@
 
             font-family: 'Sofia Sans', sans-serif;
             font-size: 40px;
-            font-style: italic;            
+            font-style: italic;      
+            z-index: 2;
+            
+            
         }
 
         .foto{
+        
+       
+          
 
         }
 
         .descricao{
+
             
+         
+
         }
+
+
+        .lista{
+
+
+        }
+
+
+
 
         .h2{
 
