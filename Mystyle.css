@@ -3,77 +3,65 @@
         body{
 
             background-color: hsl(334, 12%, 88%);
+            padding: 3%;
         }
 
-        .Nome{
-
-            font-family: 'Sofia Sans', sans-serif;
-            font-size: 40px;
-            font-style: italic;      
-            z-index: 2;
-            
-            
+        .desc {
+            position: absolute;
+            top: 36%;
+            right: 35%;
         }
-
-        .foto{
-        
-       
-          
-
-        }
-
-        .descricao{
-
-            
-         
-
-        }
-
-
-        .lista{
-
-
-        }
-
-
-
 
         .h2{
 
             font-family: 'Sofia Sans', sans-serif;
-            font-size: 15px;
+            font-weight: 300px;
         }
 
         .bom-comunicador{
-
-            font-family: 'Sofia Sans', sans-serif;
             font-size: 15px;
         }
         
         .criativo{
-
-            font-family: 'Sofia Sans', sans-serif;
             font-size: 15px;
         }
 
         .tenho{
-
-            font-family: 'Sofia Sans', sans-serif;
             font-size: 15px;
         }
 
         .pintar{
-
-            font-family: 'Sofia Sans', sans-serif;
             font-size: 15px;
         }
 
         .determinação{
-
-            font-family: 'Sofia Sans', sans-serif;
             font-size: 15px;
         }
 
 
+        
 
 
+
+
+        #minha-foto{
+            float: left;
+            height: 370px;
+            padding: 10px;
+            background-color: rgb(14, 16, 14);
+            
+        } 
+
+        .img-cont{
+            height: 385px;
+            position: relative;
+        }
+
+        .nome{
+            text-align: center;
+        }
+
+      ul li:nth-child(odd){
+
+        background-color: aquamarine;
+      }
